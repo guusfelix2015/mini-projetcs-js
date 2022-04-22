@@ -1,8 +1,8 @@
-# Mini Projetos com javascript puro
+# Mini Projetos com javascript puro 👨‍💻
 
 <img src="https://img.icons8.com/color/96/000000/javascript--v1.png"/>
 
-## Objetivo
+## Objetivo ✨
 
 Não tem outra maneira para se aprender além de **praticar, praticar e praticar**.
 
@@ -15,6 +15,7 @@ Se gostou da ideia acompanhe os projetos abaixo:
     <td>
         <h3>01 - Calculadora IMC</h3>
         <li><a href="https://github.com/guusfelix2015/mini-projetcs-js/tree/main/project-01-IMC">Código</a></li>
+        <li><a href="">Clique para testar</a></li>
         <a href=""><img src="./img/imcImg.png" width="250px"></a>
     </td>
   </tr>
