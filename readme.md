@@ -25,5 +25,4 @@ Se gostou da ideia acompanhe os projetos abaixo:
         <a href=""><img src="./img/todoList.png" width="250px"></a>
     </td>
   </tr>
-  
 </table>
