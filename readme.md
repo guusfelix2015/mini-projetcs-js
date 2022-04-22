@@ -20,7 +20,7 @@ Se gostou da ideia acompanhe os projetos abaixo:
     </td>
         <td>
         <h3>02 - TodoList</h3>
-        <li><a href="https://github.com/guusfelix2015/mini-projetcs-js/tree/main/project-01-IMC">Código</a></li>
+        <li><a href="https://github.com/guusfelix2015/mini-projetcs-js/tree/main/project-02-todolist">Código</a></li>
         <li><a href="https://todoistsimplejs.netlify.app/">Clique para testar</a></li>
         <a href=""><img src="./img/todoList.png" width="250px"></a>
     </td>
