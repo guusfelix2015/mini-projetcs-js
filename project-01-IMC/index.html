@@ -9,25 +9,40 @@
   </head>
   <body>
     <header>
-      <h1>Calcular IMC</h1>
+      <h1>Calcule seu IMC (Índice de Massa Corporal)</h1>
     </header>
     <section class="container">
       <form id="my-form">
         <div class="input-text">
           <label for="name">Nome:</label>
-          <input class="name-style" type="text" id="name" />
+          <input
+            class="name-style"
+            type="text"
+            id="name"
+            placeholder="Digite seu nome"
+          />
         </div>
         <div class="input-text">
           <label for="heigth">Altura:</label>
-          <input class="name-style" type="number" id="heigth" />
+          <input
+            class="name-style"
+            type="number"
+            id="heigth"
+            placeholder="Altura em cm: Ex: 180"
+          />
         </div>
         <div class="input-text">
           <label for="weigth">Peso:</label>
-          <input class="name-style" type="number" id="weigth" />
+          <input
+            class="name-style"
+            type="number"
+            id="weigth"
+            placeholder="Altura em Kg: Ex: 80"
+          />
         </div>
         <input type="submit" value="Submit" id="submit-button" class="btn" />
       </form>
-      <p class="message"></p>
+      <div class="message"></div>
     </section>
 
     <script src="./main.js"></script>

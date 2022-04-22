@@ -1,12 +1,10 @@
-//Selecionar o elemento da dom
 const nameInput = document.querySelector("#name");
 const heigthInput = document.querySelector("#heigth");
 const weigthInput = document.querySelector("#weigth");
 const submitButton = document.querySelector("#submit-button");
 const messageImc = document.querySelector(".message");
 
-// Adicionar Evento no click do button
-submitButton.addEventListener("click", event => {
+submitButton.addEventListener("click", (event) => {
   event.preventDefault();
   const nameValue = nameInput.value;
   const heigthValue = heigthInput.value / 100;
@@ -17,7 +15,7 @@ submitButton.addEventListener("click", event => {
     return;
   }
 
-  function calculaImc(weigth, heigth) {
+  function calculateImc(weigth, heigth) {
     const data = weigth / (heigth * heigth);
     const total = data.toFixed(2);
 
@@ -41,5 +39,5 @@ submitButton.addEventListener("click", event => {
     weigthInput.value = "";
     return;
   }
-  calculaImc(weigthValue, heigthValue);
+  calculateImc(weigthValue, heigthValue);
 });
