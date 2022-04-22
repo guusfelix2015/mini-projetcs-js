@@ -15,7 +15,7 @@ Se gostou da ideia acompanhe os projetos abaixo:
     <td>
         <h3>01 - Calculadora IMC</h3>
         <li><a href="https://github.com/guusfelix2015/mini-projetcs-js/tree/main/project-01-IMC">Código</a></li>
-        <li><a href="">Clique para testar</a></li>
+        <li><a href="calculateimcjs.netlify.app">Clique para testar</a></li>
         <a href=""><img src="./img/imcImg.png" width="250px"></a>
     </td>
   </tr>
