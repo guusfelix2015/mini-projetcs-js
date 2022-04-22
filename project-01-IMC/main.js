@@ -24,7 +24,7 @@ submitButton.addEventListener("click", (event) => {
     if (data < 18.5) {
       message = `${nameValue} seu imc é de ${total} você está abaixo do peso!`;
     } else if (data >= 18.5 && data <= 24.99) {
-      message = `${nameValue} seu imc é de ${total} você está com o peso saudável!`;
+      message = `${nameValue} seu imc é de ${total} você está com o peso normal!`;
     } else if (data >= 25 && data <= 29.99) {
       message = `${nameValue} seu imc é de ${total} você está com sobrepeso!`;
     } else if (data >= 30 && data <= 39.99) {
