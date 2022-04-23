@@ -1,5 +1,5 @@
 <div align='center'>
-<img src="./img/Rectangle%202.png">
+<img src="./img/Rectangle%202.png"  width="500px";>
 </div>
 
 <h1>IMC (Índice de Massa Corporal)</h1>
@@ -22,4 +22,4 @@
 <br>
 </br>
 
-Criado com 💙 bpor <a href="https://github.com/guusfelix2015/mini-projetcs-js/tree/main/project-01-IMC" target="_blank">Gustavo Felix</a></p>
+Criado com 💙 por <a href="https://github.com/guusfelix2015/mini-projetcs-js/tree/main/project-01-IMC" target="_blank">Gustavo Felix</a></p>
