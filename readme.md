@@ -28,7 +28,7 @@ Se gostou da ideia acompanhe os projetos abaixo:
         <h3>03 - Lâmpada</h3>
         <li><a href="https://github.com/guusfelix2015/mini-projetcs-js/tree/main/project-03-lampada">Código</a></li>
         <li><a href="https://dashing-florentine-52b308.netlify.app/">Clique para testar</a></li>
-        <a href=""><img src="./img/Rectangle%203.png" width="450px" height="150px"></a>
+        <a href=""><img src="./img/Rectangle%203.png" width="300px" height="100px"></a>
     </td>
   </tr>
 </table>
