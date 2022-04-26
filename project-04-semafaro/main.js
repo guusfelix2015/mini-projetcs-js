@@ -1,17 +1,31 @@
-const button = document.querySelector("#buttons");
-const img = document.querySelector("#img");
+const img = document.getElementById("img");
+const buttons = document.getElementById("buttons");
+let colorIndex = 0;
+let intervalId = null;
 
-const imgs = ["verde.png", "amarelo.png", "vermelho.png"];
+const trafficLigth = (event) => {
+  stopAutomatic();
+  turnOn[event.target.id]();
+};
 
-button.addEventListener("click", function (event) {
-  if (event.target.id === "red") {
-    img.src = "./img/vermelho.png";
-  } else if (event.target.id === "green") {
-    img.src = "./img/verde.png";
-  } else if (event.target.id === "yellow") {
-    img.src = "./img/amarelo.png";
-  } else if (event.target.id === "automatic") {
-    let random = Math.round(Math.random() * imgs.length);
-    img.src = "./img/" + imgs[random];
-  }
-});
+const nextIndex = () => (colorIndex < 2 ? colorIndex++ : (colorIndex = 0));
+
+const changeColor = () => {
+  const colors = ["red", "yellow", "green"];
+  const color = colors[colorIndex];
+  turnOn[color]();
+  nextIndex();
+};
+
+const stopAutomatic = () => {
+  clearInterval(intervalId);
+};
+
+const turnOn = {
+  red: () => (img.src = "./img/vermelho.png"),
+  yellow: () => (img.src = "./img/amarelo.png"),
+  green: () => (img.src = "./img/verde.png"),
+  automatic: () => (intervalId = setInterval(changeColor, 1000)),
+};
+
+buttons.addEventListener("click", trafficLigth);
